@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Project specific
+notes/
+keep_progress.json
+chrome_keep_import_profile/
+migrate_keep.py
+
+# OS specific
+.DS_Store
+Thumbs.db
