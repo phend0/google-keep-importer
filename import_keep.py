@@ -41,6 +41,7 @@ def find_chrome():
             '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
             '/usr/bin/google-chrome',
             '/usr/bin/chromium-browser',
+            '/usr/bin/chromium',
         ]
         for path in paths:
             if os.path.exists(path):
